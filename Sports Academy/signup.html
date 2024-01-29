@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+  
+</head>
+<body>
+    <form id="regForm" name="regForm" action="signup.php" onsubmit="return validateForm1() " method="POST">
+        <h1>Register:</h1>
+        <!-- One "tab" for each step in the form: -->
+        <div class="tab">
+          <p> <label for="fname" id="name">Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First name"  required></p>
+          <p><label for="mname"></label>
+            <input type="text" id="mname" name="mname" placeholder="Middle Name"   required>
+            </p>
+            <p><label for="lname"></label>
+                <input type="text" id="lname" name="lname" placeholder="Last Name"  required></p>
+            <p><label for="dob">Date Of Birth:&emsp; </label>
+                <input type="date" id="dob" name="dob"  required><br>
+            </p>
+                <p> <section class="gen1">
+                    <label for="gen">Gender:&emsp;&emsp;&emsp;</label> 
+                    <input type="radio" id="gen" name="gen"   value="Male">Male
+                    <input type="radio" id="gen" name="gen"  value="Female" > Female 
+                    <input type="radio" id="gen" name="gen"  value="Others" > Others <br><br>
+                    </section> 
+                </p>
+                    <p><label for="moname">Mother's Name &emsp;&nbsp;&ensp;:</label>
+                        <input type="text" id="moname" name="moname"   required><br><br>
+                     </p>
+               <p><label for="faname">Father's Name &emsp;&ensp;&ensp;:  </label>
+                    <input type="text" name="faname" id="faname"  required><br><br>
+               </p>
+               <p>
+                <label for="pass">Set New Password :</label>
+                <input type="password" name="pass" id="pass" value=""  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Password" required><br><br>
+               </p>  
+               <p>
+                <label for="cpass">Confirm Password :</label>
+                <input type="password" name="cpass" id="cpass" value=""  placeholder="Confirm Password" required><br><br>
+               </p>
+        </div>
+        <div class="tab">
+            <p>
+                <label for="add1"> Permanent Address:</label>
+                <textarea id="add1" name="add1" rows="2"   cols="50"></textarea><br><br>
+            </p>
+            <p>
+                <label for="coun">Country&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;: </label>
+                <select name="coun" id="coun"   required>
+                    <option value="">Please Select Country</option>
+                    <option value="India">India</option>
+                    <option value="America">America</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Canada">Canada</option>
+                </select><br><br>
+            </p>
+            <p>
+         <label for="state1">State&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; : </label>
+        <select name="state1" id="state1"    required>
+        <option value="0"> Please Select State</option>
+        <option value="1">Andaman and Nicobar </option>
+            <option value="2">Andhra Pradesh </option>
+            <option value="3">Arunachal Pradesh </option>
+            <option value="4">Assam </option>
+            <option value="5">Bihar </option>
+            <option value="6">Chandigarh </option>
+            <option value="7">Chhattisgarh </option>
+            <option value="8">Dadra and Nagar</option>
+            <option value="9">Daman and Diu </option>
+            <option value="10">Delhi</option>
+            <option value="11">Goa</option>
+            <option value="12">Gujarat</option>
+            <option value="13">Haryana</option>
+            <option value="14">Himachal Pradesh</option>
+            <option value="15">Jammu and Kashmir</option>
+            <option value="16">Jharkhand</option>
+            <option value="17">Karnataka</option>
+            <option value="18">Kerala</option>
+            <option value="19">Lakshadweep</option>
+            <option value="20">Madhya Pradesh</option>
+            <option value="21">Maharashtra</option>
+            <option value="22">Manipur</option>
+            <option value="23">Meghalaya</option>
+            <option value="24">Mizoram</option>
+            <option value="25">Nagaland</option>
+            <option value="26">Orissa</option>
+            <option value="36">Other</option>
+            <option value="27">Puducherry</option>
+            <option value="28">Punjab</option>
+            <option value="29">Rajasthan</option>
+            <option value="30">Sikkim</option>
+            <option value="31">Tamil Nadu</option>
+            <option value="32">Tripura</option>
+            <option value="33">Uttar Pradesh</option>
+            <option value="34">Uttarakhand</option>
+            <option value="35">West Bengal</option>
+            </select>
+            <br><br>
+            </p>
+            <p>
+                <label for="pin">Pincode&emsp;&emsp;&emsp;&emsp;&emsp;:</label>
+                <input type="tel" name="pin" id="pin"  pattern="[0-9]{6}" maxlength="6" placeholder="eg=395009"    title="Atleast 6 digit number"   required><br><br>
+            </p>
+            <p>
+                <label for="land">Landline&emsp;&emsp;&emsp;&emsp;&ensp;:" </label>
+                <input type="text" name="land" id="land"  maxlength="11"><br><br>
+            </p>
+            <p>
+                <label for="mob">Personal  Number&emsp;: </label>
+                <input type="tel" id="mob" name="mob" pattern="[0-9]{10}" maxlength="10" placeholder="eg=9408704981"   title="Atleast 10 digit number" required><br><br>
+            </p>
+            <p>
+                <label for="fanum">Father's Number&emsp; : </label>
+            <input type="tel" id="fanum" name="fanum"  pattern="[0-9]{10}" maxlength="10" placeholder="eg=9408704981"   title="Atleast 10 digit number"  required><br><br>
+            </p>
+            <p>
+                <label for="monum">Mother's Number&ensp; : </label>
+                <input type="tel" id="monum" name="monum"   pattern="[0-9]{10}" maxlength="10" placeholder="eg=9408704981"   title="Atleast 10 digit number"  required><br><br>
+            </p>
+            <p>
+                <label for="email">Email&emsp;&emsp;&emsp;&emsp;&emsp; : </label>
+                 <input type="email" name="email" id="email"   required><br><br>
+            </p>
+        
+        </div>
+        <div class="tab">
+            <p>
+                <label for="edu">Current Education : </label>
+                <input type="text" id="edu"  name="edu"><br><br>
+            </p>
+            <p>
+                <label for="past">Past Experience&emsp; : </label>
+                <input type="text" name="past"   id="past"><br><br>
+            </p>
+            <p>
+                <label for="achiv">Achievments&emsp;&emsp; : </label>
+                 <input type="text" id="achiv"  name="achiv"> <br><br>
+            </p>
+
+        </div>
+        <div style="overflow:auto;">
+          <div style="float:right;">
+            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+          </div>
+        </div>
+        <!-- Circles which indicates the steps of the form: -->
+        <div style="text-align:center;margin-top:40px;">
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+        </div>
+      </form>
+      <script type="text/javascript" src="signup.js">
+        </script>
+      
+</body>
+</html>
+
+
+
+

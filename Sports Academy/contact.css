@@ -1,0 +1,194 @@
+body{
+    background-color: silver;
+    font-family: Verdana, sans-serif;
+}
+.pa{
+    color:rgb(0, 0, 0);
+  font-size: 4mm;
+   width: 10%;
+  margin-top:50px;
+  margin-bottom: -35px;
+  margin-left:115px;
+  } 
+  .pan{
+    margin-left:30px;
+    margin-top:-90px;
+    height:80px; 
+    width:80px;
+  }
+  nav{
+    margin-top:-120px;
+    margin-left:185px;
+    text-shadow: 0 0 1px black;
+  }
+  .u{
+  text-align:center;
+  height:30mm;
+  padding-left:0px;
+  }
+  .l{
+  color: rgb(0, 0, 0);
+  list-style:none;
+    margin:40px 20px;
+    display:inline-block;
+  font-size: 5mm  ;
+  
+  }
+  
+  /*About us*/
+  .about2  {
+  color:rgb(0, 0, 0);
+  margin-right: 13px;
+  padding: 2px;
+  border: none;
+  font-size:5mm;
+  }
+  
+  .about1{
+  position: relative;
+  display: inline-block;
+  }
+  
+  .about3{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
+  }
+  
+  .about3 a{
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  .arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  margin-bottom: 2px;
+  padding: 3px;
+  }
+  .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  }
+  .about3 a:hover {background-color: rgb(189, 179, 179);}
+  
+  .about1:hover .about3 {display: block;}
+  
+  
+  a:link{
+  text-decoration:none;
+  color:rgb(0, 0, 0);
+  }
+  a:hover{
+  color: rgb(80, 0, 0);
+  }
+  a:visited{
+  color: black;
+  }
+  ul{
+      
+    list-style-type: none;
+  }
+  li{
+      display: inline-block;
+  }
+.i{
+    margin-top: 110px;
+    height: 450px;
+    width: 100%;
+    opacity:0.9;
+    background-size: auto;
+    filter: brightness(120%);
+    margin-bottom: 150px;
+}
+@media screen and (min-width:600px)
+    {
+    .col{
+        width: 100%;
+    }
+}
+.col h2{
+    margin-left: 150px;
+    font-size: 25px;
+    color: grey;
+}
+.col h1{
+    color: rgb(45, 39, 136);
+    font-size: 52px;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 710px;
+}    
+#one{
+    margin-top:5px ;
+    margin-left: 152px;
+    margin-right: 700px;
+    font-size: 22px;
+}
+.i1{
+    height: 50px;
+    width: 50px;
+    margin-left: 150px;
+    margin-top: 15px;
+    float: left;    
+}
+.p{
+    margin-left: 220px;
+    margin-top: 45px;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-right: 760px;
+}
+.i2{
+    height: 45px;
+    width: 45px;
+    margin-left: 150px;
+    margin-top: 20px;
+    float: left;
+}
+.i3{
+    height: 42px;
+    width: 42px;
+    margin-left: 149px;
+    margin-top: 23px;
+    float: left;
+}
+.i4{
+    height: 44px;
+    width: 44px;
+    margin-top: 5px;
+    margin-left: 147px;
+    float: left;
+}
+.q{
+    margin-top: 37px;
+    margin-left: 220px;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-right: 760px;   
+}
+ form{
+     margin-top:-600px;
+    margin-right: 100px;
+    margin-left: 900px;
+    font-size: 22px;
+    font-weight: bolder;
+    float: right;
+}
+button{
+    background-color:lightgrey;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.row{
+    margin-top:-150px;
+}
+#fname,#email, #mob,#class,#how{
+    height: 30px;
+}

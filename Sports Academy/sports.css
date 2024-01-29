@@ -1,0 +1,291 @@
+ * {
+    box-sizing: border-box;
+  } 
+body{
+    background-color: silver;
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides{
+    margin-top: 130px;
+    height: 500px;
+    width: 1520px;
+      box-shadow: 5px 5px 5px grey;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+h1{
+    margin-top: 70px;
+    text-align: center;
+    color:rgb(62, 62, 184);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p{
+    margin-top: 65px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  .row{
+      align-items: center;
+      margin-top: 25px;
+      margin-left: 50px;
+  }
+ .h1{
+     margin-left: 15px;
+     margin-right: 5px;
+     height: 400px;
+     width: 350px;
+     box-shadow: 5px 5px 5px grey;
+ } 
+.h2{
+  margin-top: 20px;
+  margin-left:390px;
+  height: 400px;
+  width: 350px;
+  box-shadow: 5px 5px 5px grey;
+}
+ .p1{
+     margin-top: 50px;
+     text-align: center;
+     font-size: 22px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-left: 315px;
+     margin-right: 315px;
+ }
+ 
+  
+  .pa{
+      color:rgb(0, 0, 0);
+    font-size: 4mm;
+     width: 10%;
+    margin-top:50px;
+    margin-bottom: -35px;
+    margin-left:115px;
+    } 
+    .pan{
+      margin-left:30px;
+      margin-top:-90px;
+      height:80px; 
+      width:80px;
+    }
+    nav{
+      margin-top:-120px;
+      margin-left:185px;
+      text-shadow: 0 0 1px black;
+    }
+  ul{
+    text-align:center;
+    height:30mm;
+    padding-left:0px;
+  }
+  .l{
+    color: rgb(0, 0, 0);
+    list-style:none;
+      margin:40px 20px;
+      display:inline-block;
+    font-size: 5mm  ;
+   
+  }
+  
+  /*About us*/
+  .about2  {
+    color:rgb(0, 0, 0);
+    margin-right: 13px;
+    padding: 2px;
+    border: none;
+    font-size:5mm;
+  }
+  
+  .about1{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .about3{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+  }
+  
+  .about3 a{
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+  margin-bottom: 2px;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .about3 a:hover {background-color: rgb(189, 179, 179);}
+  
+  .about1:hover .about3 {display: block;}
+    
+  
+   a:link{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+  }
+  a:hover{
+    color: rgb(80, 0, 0);
+  }
+  a:visited{
+    color: black;
+  }
+  
+  
+  .fi{
+     margin-top: 800px; 
+    border:0;
+    background-color:lightgrey;
+    box-shadow: 10px 10px 5px grey;
+    
+  }
+  
+  .col{
+  float: left;
+  width:150px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  li{
+    display: inline-block;
+    list-style:none;
+  }
+  #aboutus li{
+    border-bottom: 0px;
+    height:10px;
+    
+  }
+  #contact li{
+    border-bottom: 0px;
+    height: 30px;
+    margin-left: 0px;
+  }
+  #sec section{
+    text-align: center;
+  }
+  #sp{
+    padding:20px;
+    padding-right: 50px;
+    padding-left: 60px;
+    
+  }
+  #yname{
+    padding:20px;
+  }
+  #ynum{
+    padding:20px ;
+  }
+  #sub{
+    padding: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-left: 5px;
+  }
+  .f1{
+    position: relative;
+    color:black;
+    font-size: 22px;
+    background-color:lightgrey;
+    margin-left: 200px;
+    width: 250px;
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+font-family: 'Arapey', serif;
+font-family: 'Khand', sans-serif;
+font-family: 'Coda', cursive;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Teko', sans-serif;
+box-shadow: 10px 10px 5px grey;
+border-radius: 8px;
+}
+.f2{
+    position:relative;
+    margin-top: -355px;
+    margin-left: 480px;
+    color: black;
+    font-size: 22px;
+    background-color:lightgrey;
+    width: 250px;
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+font-family: 'Arapey', serif;
+font-family: 'Coda', cursive;
+font-family: 'Khand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Teko', sans-serif;
+box-shadow: 10px 10px 5px grey;
+border-radius: 8px;
+}
+.f3{
+    position:relative;
+    margin-top:-378px;
+    margin-left: 760px;
+    color: black;
+    font-size: 22px;
+    background-color:lightgrey;
+    width: 250px;
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+font-family: 'Arapey', serif;
+font-family: 'Coda', cursive;
+font-family: 'Khand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Teko', sans-serif;
+box-shadow: 10px 10px 5px grey;
+border-radius: 8px;
+}
+.f4{
+    position:relative;
+    margin-left: 300px;
+    color:black;
+    font-size: 22px;
+    background-color:lightgrey;
+    width: 250px;
+    text-align: center;
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Arapey', serif;
+font-family: 'Coda', cursive;
+font-family: 'Khand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Teko', sans-serif;
+box-shadow: 10px 10px 5px grey;
+border-radius: 8px;
+}
+.f5{
+    position:relative;
+    margin-top: -380px;
+    margin-left: 680px;
+    color:black;
+    font-size: 22px;
+    background-color:lightgrey;
+    width: 250px;
+    text-align: center;
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Arapey', serif;
+font-family: 'Coda', cursive;
+font-family: 'Khand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Teko', sans-serif;
+box-shadow: 10px 10px 5px grey;
+border-radius: 8px;
+}
+.in{
+  margin-top: -700px;
+}

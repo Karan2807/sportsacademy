@@ -1,0 +1,31 @@
+body{
+    background-color: silver;
+}
+.delete{
+    width: 50%;
+    text-align: center;
+    margin-top: 200px;
+    padding:100px 50px;
+    background: lightgrey;
+    
+}
+.d{
+    width: 25%;
+    height:300px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 180px;
+    box-shadow: 10px 10px 5px grey;
+    background: lightgrey;
+    padding: 25px 25px 0px 25px;
+}
+input{
+    width: 225px;
+    height: 35px;
+}
+#btn{
+    color: white;
+    width: 65px;
+    height: 42px;
+    background-color: black;
+}

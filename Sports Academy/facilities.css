@@ -1,0 +1,215 @@
+body{
+    background-color:silver;
+    font-family: Verdana, sans-serif;
+}
+.pa{
+  color:rgb(0, 0, 0);
+font-size: 4mm;
+ width: 10%;
+margin-top:50px;
+margin-bottom: -35px;
+margin-left:115px;
+} 
+.pan{
+  margin-left:30px;
+  margin-top:-90px;
+  height:80px; 
+  width:80px;
+}
+nav{
+  margin-top:-120px;
+  margin-left:185px;
+  text-shadow: 0 0 1px black;
+}
+.u{
+text-align:center;
+height:30mm;
+padding-left:0px;
+}
+.l{
+color: rgb(0, 0, 0);
+list-style:none;
+  margin:40px 20px;
+  display:inline-block;
+font-size: 5mm  ;
+
+}
+
+/*About us*/
+.about2  {
+color:rgb(0, 0, 0);
+margin-right: 13px;
+padding: 2px;
+border: none;
+font-size:5mm;
+}
+
+.about1{
+position: relative;
+display: inline-block;
+}
+
+.about3{
+display: none;
+position: absolute;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index:1;
+}
+
+.about3 a{
+color: rgb(0, 0, 0);
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.arrow {
+border: solid black;
+border-width: 0 2px 2px 0;
+display: inline-block;
+margin-bottom: 2px;
+padding: 3px;
+}
+.down {
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+}
+.about3 a:hover {background-color: rgb(189, 179, 179);}
+
+.about1:hover .about3 {display: block;}
+
+
+a:link{
+text-decoration:none;
+color:rgb(0, 0, 0);
+}
+a:hover{
+color: rgb(80, 0, 0);
+}
+a:visited{
+color: black;
+}
+ul{
+    
+  list-style-type: none;
+}
+li{
+
+  display: inline-block;
+}
+
+.img1{
+  margin-top: 110px;
+    height: 450px;
+    width: 100%;
+    background-size: auto;
+    filter: brightness(60%);
+}
+.h{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-family: "Prometo Regular";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: rotate(-5deg);
+}
+.b{
+    font-size: 33px;
+    font-family: "Prometo Regular";
+    margin-left: 70px;
+    margin-right: 50px;
+}
+.c{
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: "Prometo Regular";
+
+    margin-left: 70px;
+    margin-right: 50px;
+}
+@media screen and (min-width:600px)
+    {
+    .col{
+        width: 100%;
+    }
+}
+.col h2{
+      text-align: center;
+      color: rgba(2,1,1,.7215686274509804);
+      font-family: "Prometo Regular";
+      margin-left: 80px;
+}
+.col h3{
+      color:black;
+}
+.col{
+    float: left;
+  width: 47%;
+  padding: 15px;
+}
+.col ul{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.col li{
+    font-size: 19px;
+    font-family: "Prometo Regular";
+    
+}    
+.of h2{
+    text-align: center;
+    color: rgba(2,1,1,.7215686274509804);
+    font-family: "Prometo Regular";
+    margin-top: 800px;
+}
+.of h3{
+    color:black;
+}
+.of li{
+    font-size: 19px;
+}
+.of ul{
+    margin-left: 28px;
+    margin-right: 50px;
+}
+fieldset{
+    border:0;
+    background-color:lightgrey;
+    box-shadow: 10px 10px 5px grey;
+  }
+  .cl{
+    float: left;
+  width:150px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  #aboutus li{
+    border-bottom: 0px;
+    height:10px ;
+  }
+  #contact li{
+    border-bottom: 0px;
+    height: 10px;
+  }
+  #sec section{
+    text-align: center;
+  }
+  #sp{
+    padding:20px;
+    padding-right: 50px;
+    padding-left: 60px;
+  }
+  #yname{
+    padding:20px;
+  }
+  #ynum{
+    padding:20px ;
+  }
+  #sub{
+    padding: 20px;
+    padding-right: 80px;
+    padding-left: 83px;
+    margin-left: 5px;
+  }
